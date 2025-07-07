@@ -1,0 +1,32 @@
+🔍 Objective:
+To identify, analyze, and remove potentially malicious or unnecessary browser extensions and understand browser security threats.
+
+🧰 Tools Used:
+Browser: Google Chrome (you can replace with Firefox if used)
+OS: Kali Linux / Windows (mention your OS)
+Extensions Manager: chrome://extensions/
+🧭 Steps Taken:
+
+1. Accessed Browser Extension Manager
+Visited chrome://extensions/ to view all installed extensions.
+2. Reviewed Extensions
+Checked the list of all installed extensions.
+Analyzed each based on:
+Number of downloads
+Permissions requested
+User reviews and ratings
+Source (Chrome Web Store or external)
+
+
+| Extension Name       | Reason for Suspicion                                | Action Taken |
+| -------------------- | --------------------------------------------------- | ------------ |
+| PDF Converter Pro    | Requested access to all websites                    | Removed      |
+| Easy VPN             | Installed from unknown source, too many permissions | Removed      |
+| Unknown Extension ID | No name or info available                           | Removed      |
+
+4. Removed Suspicious Extensions
+Uninstalled extensions through the Extensions Manager.
+Restarted the browser to finalize removal.
+5. Post-Cleanup
+Browser performance improved.
+No unusual redirects or pop-ups observed.
